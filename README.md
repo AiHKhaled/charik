@@ -1,50 +1,34 @@
-# React + TypeScript + Vite
+# Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is A clone of the Charik website's landing page for a technical test.
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+*   [Getting Started](#getting-started)
+*   [Features](#features)
+*   [Technologies Used](#technologies-used)
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+To get started with the project, follow these steps:
 
-- Configure the top-level `parserOptions` property like this:
+1.  Clone the repository using `git clone https://github.com/your-username/project-name.git`.
+2.  Install the dependencies using `npm install`.
+3.  Start the development server using `npm run dev`.
+4.  Open your web browser and navigate to `http://localhost:5173` to view the project.
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+## Features
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+*   A clone of the Charik website's landing page, including:
+    *   **Hero Section**: A visually appealing hero section with a background image and text overlay, showcasing the key benefits of the Charik CRM.
+    *   **Call-to-Action (CTA) Button**: A prominent CTA button that encourages users to sign up or learn more about the Charik CRM.
+    *   **Key Features**: A section highlighting the key features of the Charik CRM, such as its ease of use, scalability, and customization options.
+    *   **Testimonials**: A section featuring testimonials from satisfied customers, complete with quotes and avatars, to build trust and credibility.
+    *   **Latest Blogs**: A section showcasing the latest blog posts from the Charik CRM team, covering topics such as industry trends, best practices, and product updates.
+    *   **Navigation Menu**: A navigation menu with links to other pages (not implemented yet), providing easy access to additional resources and information.
+## Technologies Used
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+*   **React**: A JavaScript library for building user interfaces.
+*   **Vite**: A fast and lightweight development server for building web applications.
+*   **TypeScript**: A statically typed programming language for building large-scale applications
+*   **Tailwind CSS**: A utility-first CSS framework for building custom user interfaces.
