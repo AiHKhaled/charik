@@ -1,4 +1,4 @@
-# Project Name
+# Charik Clone
 
 This is A clone of the Charik website's landing page for a technical test.
 
